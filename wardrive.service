@@ -1,0 +1,15 @@
+[Unit]
+Description=WarDrive Monitor Service
+After=network.target
+
+[Service]
+User=root
+ExecStart=/home/user/wardrive_page/war_env/bin/gunicorn -b 0.0.0.0 app:app
+WorkingDirectory=/home/user/wardrive_page/  
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+TimeoutStopSec=5
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

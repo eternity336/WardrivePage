@@ -1,0 +1,51 @@
+
+<!doctype html>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}"/>
+<link rel="icon" type="image/icon" href="{{url_for('static',filename='images/wardrive.png')}}"/>
+
+<title>Hack the Planet!</title>
+<div class="server_body">    
+    <div class="padding">
+        <label class="center title">WIFI</label>
+        <table class='wifitable'>
+            <colgroup>
+                <col class="wifinamecol" />
+                <col/>
+                <col/>
+                <col/>
+                <col/>
+              </colgroup>
+            <thead>
+            <tr>
+                <th>Name</th> 
+                <th>Frequency</th>
+                <th>Channel</th>
+                <th>Quality</th>
+                <th>Signal</th>
+            </tr>
+            </thead>
+            <tbody id='showwifi'>
+            </tbody>
+        </table>
+    </div>
+    <div class="padding"></div>
+    <div class="padding">
+        <label class="center title">BLUETOOTH</label>
+        <table class='bluetoothtable'>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            </thead>
+            <tbody id='showbluetooth'>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="QRBody">
+    <img class="QR" src="{{url_for('static',filename='images/PCA_QRCode.png')}}"/>
+</div>
+<script src="{{url_for('static', filename='scripts/index.js')}}">    
+</script>

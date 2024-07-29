@@ -1,0 +1,170 @@
+html {
+    background-image: url(../images/blueglitchmatrix.gif);
+    background-size: auto 100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000000;
+  }
+  button, input{
+    border-radius: 5px;
+  }
+  .center{
+    text-align: center;
+  }
+  .banner{
+    background-color: #009b0d;
+    background-size: auto;
+    border-radius: 15px;
+    height: 10px;
+    padding: 2%;
+    text-shadow: 0px 0px 5px #000000,0px 0px 5px #000000,0px 0px 5px #000000,0px 0px 5px #000000,0px 0px 5px #000000;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #000000, 0px 0px 15px #FFFFFF;  
+  }
+
+  .title{
+    display: block;
+    font-size: large;
+    font-style: bold;
+    text-shadow: 0px 0px 10px white;
+    color: #000000;
+    padding: 5px;
+  }
+  .server_body {
+    display: grid;
+    grid-template-columns: 40% auto 40%;
+    grid-gap: 1%;
+  }
+  .padding {
+    width: 98%;
+    padding: 1%;
+  }
+  
+  table.wifitable {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 1px solid #26306d;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    table-layout: fixed;
+  }
+  table.wifitable td, table.wifitable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable tbody td {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable tr:nth-child(even) {
+    background: #5c90c0;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable thead {
+    background: #26306d;
+    border-bottom: 0px solid #93bda1;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable tfoot td {
+    font-size: 14px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable tfoot .links {
+    text-align: right;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable tfoot .links a{
+    display: inline-block;
+    background: #26306d;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  table.wifitable col{
+    width: 15%;
+  }
+  table.wifitable .wifinamecol{
+    width: 30%;
+  }
+
+  
+
+  table.bluetoothtable {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 1px solid #26306d;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.bluetoothtable td, table.bluetoothtable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.bluetoothtable tbody td {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+  }
+  table.bluetoothtable tr:nth-child(even) {
+    background: #5c90c0;
+  }
+  table.bluetoothtable thead {
+    background: #26306d;
+    border-bottom: 0px solid #444444;
+  }
+  table.bluetoothtable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  table.bluetoothtable tfoot td {
+    font-size: 14px;
+  }
+  table.bluetoothtable tfoot .links {
+    text-align: right;
+  }
+  table.bluetoothtable tfoot .links a{
+    display: inline-block;
+    background: #26306d;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  label{
+    background: #26306d;
+    background: linear-gradient(180deg, #26306d 0%, #4350a4 34%, #384070 76%, #26306d 100%);
+  }
+  .QR{
+    width: 15%;
+  }
+  .QRBody{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+  }
